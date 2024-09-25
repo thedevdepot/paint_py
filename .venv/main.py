@@ -20,6 +20,18 @@ def draw_menu():
     pg.draw.circle(screen, 'white', (155, 35), 10)
     s_brush = pg.draw.rect(screen, 'black', [190, 10, 50, 50])
     pg.draw.circle(screen, 'white', (215, 35), 5)
+    brush_list = [xl_brush, l_brush, m_brush, s_brush]
+
+    blue = pg.draw.rect(screen, (0, 0, 255), [WIDTH - 35, 10, 25, 25])
+    red = pg.draw.rect(screen, (255, 0, 0), [WIDTH - 35, 35, 25, 25])
+    green = pg.draw.rect(screen, (0, 255, 0), [WIDTH - 60, 10, 25, 25])
+    yellow = pg.draw.rect(screen, (0, 0, 255), [WIDTH - 60, 35, 25, 25])
+    teal = pg.draw.rect(screen, (0, 255, 255), [WIDTH - 85, 10, 25, 25])
+    purple = pg.draw.rect(screen, (255, 0, 255), [WIDTH - 85, 35, 25, 25])
+    white = pg.draw.rect(screen, (0, 0, 0), [WIDTH - 110, 10, 25, 25])
+    black = pg.draw.rect(screen, (255, 255, 255), [WIDTH - 110, 35, 25, 25])
+    color_rect = [blue, red, yellow, teal, purple, white, black]
+
 
 run = True
 while run:
