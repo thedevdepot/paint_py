@@ -2,10 +2,6 @@
 
 A basic paint program written in Python using Pygame, following a tutorial.
 
-## Screenshot
-
-![Paint Program Screenshot](paint_pic.png)
-
 ## Features
 
 - Basic drawing functionality
